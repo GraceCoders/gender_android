@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".company_section.view.activity.Purchased_Stats_Activity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:src="@drawable/back" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/img_back"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_height="match_parent">
+
+
+            <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                android:layout_width="wrap_content"
+                android:text="@string/courses_details"
+                android:textSize="@dimen/_24sdp"
+                android:gravity="center_vertical"
+                android:textColor="@color/naturalGray"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_180sdp"
+                android:elevation="0dp"
+                android:background="@color/white"
+                app:cardCornerRadius="@dimen/_10sdp">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/dummy_thumbnail"
+                    android:id="@+id/img_product" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="bottom"
+                    android:layout_height="match_parent">
+                    <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                        android:layout_width="wrap_content"
+                        android:text="Lorem ipsum dolor sit amet, consectetur"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:textSize="@dimen/_18sdp"
+                        android:id="@+id/tv_title"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"/>
+                    <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                        android:layout_width="wrap_content"
+                        android:text="$60/seat"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:textSize="@dimen/_18sdp"
+                        android:layout_below="@+id/tv_title"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/colororange"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/white"
+        app:tabTextColor="@color/colorPrimaryDark">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_buy"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/boarder_blue">
+
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:text="@string/buymore"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+    </LinearLayout>
+
+</RelativeLayout>

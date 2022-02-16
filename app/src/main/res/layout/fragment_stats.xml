@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="match_parent">
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_18sdp"
+            android:padding="@dimen/_4sdp"
+            android:text="Your company's Unique Course Access Key"
+            android:textColor="@color/naturalGray"
+            android:layout_height="wrap_content"/>
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="italic"
+            android:text="(Give this to employees)"
+            android:textColor="@color/naturalGray"
+            android:layout_height="wrap_content"/>
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="83719-58015-23641-84332-09281"
+        android:textColor="@color/colororange"
+        android:layout_height="wrap_content"/>
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Send instructional email"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="@dimen/_175sdp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="1dp"/>
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="No. of seats bought"
+            android:textColor="@color/naturalGray"
+            android:layout_height="wrap_content"/>
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:text="20"
+            android:textColor="@color/graytext"
+            android:layout_height="wrap_content"/>
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Seats left"
+            android:textColor="@color/naturalGray"
+            android:layout_height="wrap_content"/>
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:text="10"
+            android:textColor="@color/graytext"
+            android:layout_height="wrap_content"/>
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Redeemed by (2)"
+            android:textColor="@color/naturalGray"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/rv_redeemed_list"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

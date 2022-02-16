@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:text="Enter no. of seats you want to buy"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="@color/naturalGray"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:background="@drawable/boarder_gray"
+            android:layout_height="wrap_content">
+            <com.gender.gendercomfortable.controller.CustomViews.MyEditTextNormal
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:hint="No. of seats"
+                android:inputType="number"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/colorBlack"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:id="@+id/ll_continue"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/boarder_blue"
+            android:layout_height="wrap_content">
+            <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                android:layout_width="match_parent"
+                android:text="@string/Continue"
+                android:gravity="center"
+                android:padding="@dimen/_12sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

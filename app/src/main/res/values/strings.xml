@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Gender Comfortable</string>
+
+    //welcome page
+
+    <string name="welcome">Welcome!</string>
+    <string name="learn">Learn how to feel comfortable around transgender people</string>
+    <string name="getstarted">Get started</string>
+    <string name="login">Login</string>
+
+    <string-array name="accountType">
+        <item>Select account type</item>
+        <item>Company</item>
+        <item>Employee</item>
+    </string-array>
+
+
+    //company login
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="dont_account">Don’t have an account?</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    //signup
+    <string name="email">Email</string>
+    <string name="cover">Cover image</string>
+    <string name="company_name">Company name</string>
+    <string name="company_bio">Company bio</string>
+    <string name="company_address">Address</string>
+    <string name="already_account">Already have an account?</string>
+
+
+    //courses details
+    <string name="courses_details">Course detail</string>
+    <string name="description">Description</string>
+    <string name="certification">Certification</string>
+    <string name="Curriculum">Curriculum</string>
+    <string name="buy">Buy</string>
+    <string name="buymore">Buy more seats</string>
+    <string name="Continue">Continue</string>
+    <string name="order">Order</string>
+    <string name="Redeemed_on">Redeemed on:</string>
+    <string name="test_score">Test Score:</string>
+    <string name="order_details">Order details</string>
+
+    //settings
+    <string name="edit">Edit Profile</string>
+    <string name="purchased_courses">Purchased Courses</string>
+    <string name="change_password">Change Password</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="notification">Notifications</string>
+
+    //edit profile
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="save">Save</string>
+
+
+    //change pwd
+
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="repassword">Re-enter new password</string>
+    <string name="change">Change</string>
+
+
+    //add card
+    <string name="payment_method">Payment Method</string>
+    <string name="payment_option">Payment options</string>
+    <string name="name_on_card">Name on card</string>
+    <string name="card_number">Card Number</string>
+    <string name="cvv">Cvv</string>
+    <string name="remember">Remember me</string>
+    <string name="checkout">Checkout</string>
+
+    //forget pwd
+
+    <string name="forget_pwd">Forgot password?</string>
+    <string name="pwd_link">Don’t worry! We will send you the reset link on your mail.</string>
+    <string name="email_address">Email address</string>
+    <string name="reset">Reset</string>
+
+
+    //home
+    <string name="available_courses">Available courses</string>
+    <string name="remember_me">Remember me</string>
+    <string name="payment_successfull">Payment successful</string>
+    <string name="go_home">Go Back to Home</string>
+
+    //employee signup
+
+    <string name="profile_pic">Profile Pic</string>
+    <string name="traning_voucher">Traning voucher code</string>
+    <string name="add_another">Add Another Voucher</string>
+    <string name="add_license_key">Add license key</string>
+    <string name="gender_certified">Find Gender Comfortable Certified Businesses</string>
+    <string name="activate_account">Activate Account</string>
+    <string name="serach">Search</string>
+    <string name="courses">Courses</string>
+    <string name="certifications">Certifications</string>
+    <string name="download_certificates">Download certificate</string>
+    <string name="view_courses">View Courses</string>
+    <string name="license_key">License Key</string>
+    <string name="submit">Submit</string>
+    <string name="take_test">Take Test</string>
+    <string name="lesson">Lessons</string>
+    <string name="More">more</string>
+    <string name="Description">Description</string>
+
+    //gender array
+    <string-array name="category">
+        <item>Business Type/Category</item>
+        <item>Retail</item>
+        <item>Shoes</item>
+        <item>Clothing</item>
+        <item>Entertainment</item>
+        <item>Lingerie</item>
+    </string-array>
+
+    //error
+    <string name="error_empty_user_id">Please enter your Email Address</string>
+    <string name="error_empty_current_pwd">Please enter your Current Password</string>
+    <string name="error_empty_new_pwd">Please enter your New Password</string>
+    <string name="error_empty_cfm_pwd">Please Confirm Password </string>
+    <string name="error_empty_msg">Please Enter your Message</string>
+    <string name="error_empty_user_name">Please enter your User Name</string>
+    <string name="error_empty_first_name">Please enter your First Name</string>
+    <string name="error_empty_last_name">Please enter your Last Name</string>
+    <string name="error_empty_password">Please enter your Password</string>
+    <string name="error_authentication">User not found</string>
+</resources>

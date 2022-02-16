@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".company_section.view.activity.Login_Activity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:src="@drawable/back" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/img_back"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/dummy_dp" />
+            <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/profile_pic"
+                android:textAlignment="center"
+                android:textColor="@color/naturalGray"
+                android:textSize="@dimen/_16sdp" />
+        </LinearLayout>
+
+            <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/first_name"
+                android:textColor="@color/naturalGray"
+                android:textSize="@dimen/_16sdp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/boarder_gray"
+                android:layout_height="wrap_content">
+
+                <com.gender.gendercomfortable.controller.CustomViews.MyEditTextNormal
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:padding="@dimen/_12sdp"
+                    android:text="Jordan"
+                    android:textColor="@color/naturalGray"
+                    android:textSize="@dimen/_16sdp" />
+            </LinearLayout>
+
+            <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/last_name"
+                android:textColor="@color/naturalGray"
+                android:textSize="@dimen/_16sdp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/boarder_gray"
+                android:layout_height="wrap_content">
+
+                <com.gender.gendercomfortable.controller.CustomViews.MyEditTextNormal
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Tew"
+                    android:textSize="@dimen/_16sdp"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/naturalGray" />
+            </LinearLayout>
+            <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/email"
+                android:textColor="@color/naturalGray"
+                android:textSize="@dimen/_16sdp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/boarder_gray"
+                android:layout_height="wrap_content">
+
+                <com.gender.gendercomfortable.controller.CustomViews.MyEditTextNormal
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="jordan@gmail.com"
+                    android:textSize="@dimen/_16sdp"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/naturalGray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:id="@+id/ll_save"
+                android:background="@drawable/boarder_blue"
+                android:layout_height="wrap_content">
+                <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                    android:layout_width="match_parent"
+                    android:text="@string/save"
+                    android:gravity="center"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

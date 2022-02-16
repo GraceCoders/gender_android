@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".company_section.view.activity.Login_Activity">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/logo2"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:layout_height="wrap_content"/>
+
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:text="Choose your Business Category"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/rv_categories"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:id="@+id/ll_continue"
+            android:background="@drawable/boarder_blue"
+            android:layout_height="wrap_content">
+            <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                android:layout_width="match_parent"
+                android:text="@string/Continue"
+                android:gravity="center"
+                android:padding="@dimen/_12sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="match_parent"
+            android:text="Select any 1 or more categories"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/naturalGray"
+            android:textSize="@dimen/_12sdp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

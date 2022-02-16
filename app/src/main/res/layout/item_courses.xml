@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_180sdp"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:background="@color/white"
+            app:cardCornerRadius="@dimen/_10sdp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/dummy_thumbnail"
+                android:id="@+id/img_product" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="bottom"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_height="match_parent">
+                <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                    android:layout_width="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_18sdp"
+                    android:id="@+id/tv_title"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"/>
+                <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+                    android:layout_width="wrap_content"
+                    android:text="$60/seat"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_18sdp"
+                     android:layout_below="@+id/tv_title"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colororange"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

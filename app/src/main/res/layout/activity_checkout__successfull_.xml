@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".company_section.view.activity.Checkout_Successfull_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/success" />
+
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="$720"
+            android:textColor="@color/colororange"
+            android:textSize="@dimen/_36sdp" />
+
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Congratulations! your order is successfully placed. You have purchased 12 seats and your unique course access key is"
+            android:textAlignment="center"
+            android:textColor="@color/naturalGray"
+            android:textSize="@dimen/_16sdp" />
+
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="83719-58015-23641-84332-09281"
+            android:textColor="@color/colororange"
+            android:textSize="@dimen/_16sdp" />
+
+        <com.gender.gendercomfortable.controller.CustomViews.MyTextViewRegular
+            android:id="@+id/go_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/go_home"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_18sdp" />
+
+        <View
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
